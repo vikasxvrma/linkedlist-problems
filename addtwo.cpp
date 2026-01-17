@@ -25,6 +25,7 @@ void insertAtend(int d, Node *&head)
         head = newnode;
         return;
     }
+    // making changes as to learn git 
     Node *temp = head;
     while (temp->next != NULL)
     {
